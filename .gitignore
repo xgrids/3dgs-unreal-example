@@ -1,0 +1,21 @@
+Plugins/
+
+Content/
+Content.zip
+
+# UE 生成目录
+Binaries/
+Build/
+DerivedDataCache/
+Intermediate/
+Saved/
+.vs/
+.vscode/
+*.VC.db
+*.opensdf
+*.sdf
+*.sln
+*.suo
+*.xcodeproj
+*.xcworkspace
+.cursor
