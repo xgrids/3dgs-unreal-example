@@ -13,7 +13,9 @@ Example project for 3D Gaussian Splatting (3DGS) in Unreal Engine, built on the 
 
 Split into 13 standalone levels (plus a `LCCWelcome` hub), each demonstrating exactly one thing: loading a 3DGS scene, comparing render modes, clipping, collision, navmesh, water, Sequencer output, GIS, and multi-display. Open the level you care about instead of digging through a pile of blueprints.
 
-<video src="https://github.com/xgrids/3dgs-unreal-example/raw/main/Media/Demo.mp4" controls width="100%"></video>
+![Demo](./Media/Demo.gif)
+
+*Sped up 3x. [Watch the full-quality video](https://github.com/xgrids/3dgs-unreal-example/raw/main/Media/Demo.mp4) for the original pacing.*
 
 - Engine: Unreal Engine 5.4 ~ 5.8 (saved with 5.4, opens in newer versions)
 - Plugin: LCC4Unreal 3.3.1 or newer (Win64 / Linux)

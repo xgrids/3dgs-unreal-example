@@ -13,7 +13,9 @@
 
 按功能拆成 13 个独立关卡（外加一个导航入口 `LCCWelcome`），每个关卡只演示一件事：从加载一个 3DGS 场景，到渲染模式对比、裁剪、碰撞、导航网格、水体、Sequencer 出片、GIS 与多屏输出。想学哪块直接开对应关卡，不用从一堆蓝图里找线索。
 
-<video src="https://github.com/xgrids/3dgs-unreal-example/raw/main/Media/Demo.mp4" controls width="100%"></video>
+![演示](./Media/Demo.gif)
+
+*已 3 倍速。想看原速完整画质可[下载视频](https://github.com/xgrids/3dgs-unreal-example/raw/main/Media/Demo.mp4)。*
 
 - 引擎版本：Unreal Engine 5.4 ~ 5.8（工程以 5.4 保存，可用更高版本打开）
 - 插件版本：LCC4Unreal 3.3.1 及以上（Win64 / Linux）
