@@ -1,4 +1,4 @@
-# 3dgs-unreal-example
+﻿# 3dgs-unreal-example
 
 [![Plugin](https://img.shields.io/badge/Plugin-LCC%20for%20UE-blueviolet?logo=github)](https://github.com/xgrids/LCC-3DGS-Unreal-Plugin)
 [![Discord](https://img.shields.io/badge/Discord-Join%20Community-5865F2?logo=discord&logoColor=white)](https://discord.gg/b99H8wjRaH)
@@ -13,7 +13,7 @@ Example project for 3D Gaussian Splatting (3DGS) in Unreal Engine, built on the 
 
 Split into 13 standalone levels (plus a `LCCWelcome` hub), each demonstrating exactly one thing: loading a 3DGS scene, comparing render modes, clipping, collision, navmesh, water, Sequencer output, GIS, and multi-display. Open the level you care about instead of digging through a pile of blueprints.
 
-https://github.com/xgrids/3dgs-unreal-example/raw/main/Media/Demo.mp4
+<video src="https://github.com/xgrids/3dgs-unreal-example/raw/main/Media/Demo.mp4" controls width="100%"></video>
 
 - Engine: Unreal Engine 5.4 ~ 5.8 (saved with 5.4, opens in newer versions)
 - Plugin: LCC4Unreal 3.3.1 or newer (Win64 / Linux)
@@ -59,10 +59,7 @@ Pick the release that matches your clone. Mixing a `Content.zip` from an older r
 
 The plugin is third-party redistributable content and is not bundled here. Get the installer from the XGRIDS developer portal (the GitHub repo hosts docs only, no binaries):
 
-- Download: https://developer.xgrids.com/#/download?page=LCC_UNREAL_SDK_UE54
-- Plugin repo: https://github.com/xgrids/LCC-3DGS-Unreal-Plugin
-- User manual: https://docs.xgrids.com/en-us/07-plugin-sdk/01-unreal/v3.3.1/01-introduction.html
-- Website: https://www.xgrids.com/intl/lccUE
+[Download](https://developer.xgrids.com/#/download?page=LCC_UNREAL_SDK_UE54) · [Plugin repo](https://github.com/xgrids/LCC-3DGS-Unreal-Plugin) · [Docs](https://docs.xgrids.com/en-us/07-plugin-sdk/01-unreal/v3.3.1/01-introduction.html) · [Website](https://www.xgrids.com/intl/lccUE)
 
 The plugin comes in Free and Pro tiers. Every level in this project opens on the Free tier: multi-format loading, LoD, depth and DOF, collision, NavMesh, VR, nDisplay, and Cesium are all included. Proxy Mesh relighting, self-shadowing, the ACES / OCIO color pipeline, and unlimited clipping are Pro features. See the [plugin repo](https://github.com/xgrids/LCC-3DGS-Unreal-Plugin) for the full comparison.
 
@@ -209,9 +206,4 @@ The items above are specific to this example project. For plugin usage questions
 
 This repo contains only the example project and its sample data. The LCC4Unreal plugin is developed and distributed by XGRIDS; refer to the official terms for licensing and usage.
 
-- Plugin repo: https://github.com/xgrids/LCC-3DGS-Unreal-Plugin
-- User manual: https://docs.xgrids.com/en-us/07-plugin-sdk/01-unreal/v3.3.1/01-introduction.html
-- FAQ: https://docs.xgrids.com/en-us/07-plugin-sdk/01-unreal/v3.3.1/19-faq.html
-- Developer forum: https://developer.xgrids.com/#/forum
-- Discord: https://discord.gg/b99H8wjRaH
-- Website: https://www.xgrids.com/intl/lccUE
+[Plugin repo](https://github.com/xgrids/LCC-3DGS-Unreal-Plugin) · [Docs](https://docs.xgrids.com/en-us/07-plugin-sdk/01-unreal/v3.3.1/01-introduction.html) · [FAQ](https://docs.xgrids.com/en-us/07-plugin-sdk/01-unreal/v3.3.1/19-faq.html) · [Forum](https://developer.xgrids.com/#/forum) · [Discord](https://discord.gg/b99H8wjRaH) · [Website](https://www.xgrids.com/intl/lccUE)

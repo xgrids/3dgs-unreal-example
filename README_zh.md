@@ -1,4 +1,4 @@
-# 3dgs-unreal-example
+﻿# 3dgs-unreal-example
 
 [![Plugin](https://img.shields.io/badge/Plugin-LCC%20for%20UE-blueviolet?logo=github)](https://github.com/xgrids/LCC-3DGS-Unreal-Plugin)
 [![Discord](https://img.shields.io/badge/Discord-Join%20Community-5865F2?logo=discord&logoColor=white)](https://discord.gg/b99H8wjRaH)
@@ -13,7 +13,7 @@
 
 按功能拆成 13 个独立关卡（外加一个导航入口 `LCCWelcome`），每个关卡只演示一件事：从加载一个 3DGS 场景，到渲染模式对比、裁剪、碰撞、导航网格、水体、Sequencer 出片、GIS 与多屏输出。想学哪块直接开对应关卡，不用从一堆蓝图里找线索。
 
-https://github.com/xgrids/3dgs-unreal-example/raw/main/Media/Demo.mp4
+<video src="https://github.com/xgrids/3dgs-unreal-example/raw/main/Media/Demo.mp4" controls width="100%"></video>
 
 - 引擎版本：Unreal Engine 5.4 ~ 5.8（工程以 5.4 保存，可用更高版本打开）
 - 插件版本：LCC4Unreal 3.3.1 及以上（Win64 / Linux）
@@ -59,10 +59,7 @@ git clone https://github.com/xgrids/3dgs-unreal-example.git
 
 插件属于第三方发行内容，未随仓库分发。安装包从 XGRIDS 开发者中心获取（GitHub 仓库只提供说明与文档，不放二进制包）：
 
-- 下载页：https://developer.xgrids.com/#/download?page=LCC_UNREAL_SDK_UE54
-- 插件仓库：https://github.com/xgrids/LCC-3DGS-Unreal-Plugin
-- 用户手册：https://docs.xgrids.com/zh-cn/07-plugin-sdk/01-unreal/v3.3.1/01-introduction.html
-- 官网：https://www.xgrids.com/intl/lccUE
+[下载页](https://developer.xgrids.com/#/download?page=LCC_UNREAL_SDK_UE54) · [插件仓库](https://github.com/xgrids/LCC-3DGS-Unreal-Plugin) · [文档](https://docs.xgrids.com/zh-cn/07-plugin-sdk/01-unreal/v3.3.1/01-introduction.html) · [官网](https://www.xgrids.com/intl/lccUE)
 
 插件分 Free 与 Pro 两档。本工程的示例关卡在 Free 版下都能打开，多格式加载、LoD、深度与景深、碰撞、NavMesh、VR、nDisplay、Cesium 都属于 Free 范围；Proxy Mesh 重打光、自阴影、ACES / OCIO 色彩管线、无限制裁剪属于 Pro 功能。两档的完整对比见[插件仓库说明](https://github.com/xgrids/LCC-3DGS-Unreal-Plugin)。
 
@@ -209,9 +206,4 @@ git clone https://github.com/xgrids/3dgs-unreal-example.git
 
 本仓库只包含示例工程与示例数据。LCC4Unreal 插件由 XGRIDS 开发与发行，其许可与使用条款请以官方说明为准。
 
-- 插件仓库：https://github.com/xgrids/LCC-3DGS-Unreal-Plugin
-- 用户手册：https://docs.xgrids.com/zh-cn/07-plugin-sdk/01-unreal/v3.3.1/01-introduction.html
-- 常见问题：https://docs.xgrids.com/en-us/07-plugin-sdk/01-unreal/v3.3.1/19-faq.html
-- 开发者论坛：https://developer.xgrids.com/#/forum
-- Discord：https://discord.gg/b99H8wjRaH
-- 官网：https://www.xgrids.com/intl/lccUE
+[插件仓库](https://github.com/xgrids/LCC-3DGS-Unreal-Plugin) · [文档](https://docs.xgrids.com/zh-cn/07-plugin-sdk/01-unreal/v3.3.1/01-introduction.html) · [常见问题](https://docs.xgrids.com/en-us/07-plugin-sdk/01-unreal/v3.3.1/19-faq.html) · [论坛](https://developer.xgrids.com/#/forum) · [Discord](https://discord.gg/b99H8wjRaH) · [官网](https://www.xgrids.com/intl/lccUE)
